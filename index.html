@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>My CV</title>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <main>
+            <header>
+                <section>
+                    <h1>Darya Dobysh</h1>
+                    <p><i>Junior Frontend developer</i></p>
+                </section>
+            </header>
+            <section>
+                <h2>Contacts</h2>
+                <ul>
+                    <li>Location: Georgia, Tbilisi</li>
+                    <li>Phone: +995-598-70-08-28</li>
+                    <li>E-mail: <a href="mailto:d.bakinovskaya@gmail.com" target="_blank">d.bakinovskaya@gmail.com</a></li>
+                    <li>GitHub: <a href="https://github.com/dbakinovskaya" target="_blank"  >dbakinovskaya</a></li>
+                    <li>Telegram: <a href="https://t.me/bakinosha" target="_blank">@bakinosha</a></li>
+                    <li>Linkedin: <a href="https://www.linkedin.com/in/darya-dobysh-356550250/" target="_blank">Darya Dobysh</a></li>
+                </ul>
+            </section>
+            <section>
+                <h2>About</h2>
+                <p>My main goal is to successfully graduate from UpSkill and RS School.</p>
+            </section>
+            <section>
+                <h2>Skills</h2>
+                <ul>
+                    <li>HTML5</li>
+                    <li>CSS3 (Framework Bootstrap, Preprocessor SCSS)</li>
+                    <li>JS Basic</li>
+                    <li>Git, GitHub</li>
+                    <li>Visual Studio Code</li>
+                    <li>Figma (for web-development)</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Code example</h2>
+                <p><i>Selection Sort</i></p>
+                <pre>
+                    <code>
+                        function selectionSort(arr) {
+                            for (let i=0; i &lt; arr.length; i++) {
+                                let min=i;
+                                for (let n=i+1; n &lt; arr.length; n++) {
+                                    if (arr[min] &gt; arr[n]) {
+                                        min=n;
+                                    }
+                                }
+                                const change = arr[min];
+                                arr[min]=arr[i];
+                                arr[i]= change;
+                            }
+                            return arr;
+                        }
+                    </code>
+                </pre>
+            </section>
+            <section>
+                <h2>Expirience</h2>
+                <p>Example of work: <a href="https://codepen.io/Dashkins" target="_blank">Codepen by Darya</a></p>
+            </section>
+            <section>
+                <h2>Education</h2>
+                <ul>
+                    <li> University: Belarussian State University, Law Faculty (2015-2019)</li>
+                    <li>Courses: Computer Science Basics, HTML/CSS and Java Script Basics</li>
+                </ul>
+            </section>
+            <section>
+                <h2>Languages</h2>
+                <ul>
+                    <li>Russian: native</li>
+                    <li>English: B1</li>
+                    <li>Belorussian: intermediate</li>
+                </ul>
+            </section>
+        </main>
+        <footer>
+            <div>
+                <p><a href="https://app.rs.school/dbakinovskaya" target="_blank">
+                    &#128279; Darya Dobysh on RS School</a></p>
+                <p><a href="https://github.com/dbakinovskaya">
+                    &#128279; dbakinovskaya on GitHub</a></p>
+                <p>07.10.2022</p>
+            </div>
+            <div class="logo" >
+                <p>
+                    <a href="https://app.rs.school" target="_blank" class="logo">
+                        <img src="https://app.rs.school/static/images/logo-rsschool3.png" alt="RS School logotype">
+                        <img src="https://app.rs.school/static/svg/solidarity-Ukraine.svg" alt="Stand with Ukraine, stop war">
+                    </a>
+                </p>
+            </div>
+        </footer>
+    </body>
+</html>
