@@ -19,3 +19,34 @@ My main goal is to successfully graduate from UpSkill and RS School.
 * Git, GitHub
 * Visual Studio Code
 * Figma (for web-development)
+
+## Code Example
+_Selection Sort Example_
+```
+function selectionSort(arr) {
+  for (let i=0; i <arr.length; i++) {
+    let min=i;
+    for (let n=i+1; n<arr.length; n++) {
+      if (arr[min]>arr[n]) {
+        min=n;
+      }
+    }
+    const change = arr[min];
+    arr[min]=arr[i];
+    arr[i]= change;
+  }
+  return arr;
+}
+```
+
+## Expirience
+Example of work: [Codepen by Darya](https://codepen.io/Dashkins)
+
+## Education
+* University: *Belarussian State University,* *Law Faculty (2015-2019)*
+* Courses: *Computer Science Basics, HTML/CSS and Java Script Basics*
+
+## Languages
+* Russian: native
+* English: B1
+* Belorussian: intermediate
