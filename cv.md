@@ -1,5 +1,5 @@
 # Darya Dobysh
-_Junior Frontend Developer_
+_Junior frontend developer_
 
 ## Contacts
 * Location: Georgia, Tbilisi
