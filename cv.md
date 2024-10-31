@@ -8,7 +8,7 @@ _Junior Frontend Developer_
 * GitHub: [dbakinovskaya](https://github.com/dbakinovskaya)
 * Telegram: [@bakinosha](https://t.me/bakinosha)
 * Linkedin: [Darya Dobysh](https://www.linkedin.com/in/darya-dobysh-356550250/)
-*
+
 ## About
 My main goal is to successfully graduate from RS School.
 
