@@ -27,3 +27,12 @@ My main goal is to successfully graduate from RS School.
 * [Laserspoon](https://laserspoon.com)
 * [DzenExchange](https://dzen.exchange)
 * [Marbomebel](https://marbomebel.ru)
+
+## Education
+* University: *Belarussian State University,* *Law Faculty (2015-2019)*
+* Courses: *Computer Science Basics, HTML/CSS and Java Script Basics*
+
+## Languages
+* Russian: native
+* English: A2
+* Belorussian: intermediate
